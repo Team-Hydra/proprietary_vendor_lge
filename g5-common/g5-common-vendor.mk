@@ -696,7 +696,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
-    vendor/lge/g5-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/lge/g5-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/lge/g5-common/proprietary/lib/hw/gps.msm8996.so:system/lib/hw/gps.msm8996.so \
+    vendor/lge/g5-common/proprietary/lib64/hw/gps.msm8996.so:system/lib64/hw/gps.msm8996.so \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
