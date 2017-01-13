@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/lge/v20-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lge/v20-common/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
+    vendor/lge/v20-common/proprietary/lib/hw/gps.msm8996.so:system/lib/hw/gps.msm8996.so \
     vendor/lge/v20-common/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
     vendor/lge/v20-common/proprietary/lib/hw/fingerprint.msm8996.so:system/lib/hw/fingerprint.msm8996.so \
     vendor/lge/v20-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
@@ -88,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/v20-common/proprietary/lib64/hw/consumerir.msm8996.so:system/lib64/hw/consumerir.msm8996.so \
     vendor/lge/v20-common/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
+    vendor/lge/v20-common/proprietary/lib64/hw/gps.msm8996.so:system/lib64/hw/gps.msm8996.so \
     vendor/lge/v20-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/v20-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
     vendor/lge/v20-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
