@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/v20-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/v20-common/proprietary/bin/radish:system/bin/radish \
-    vendor/lge/v20-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/v20-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/v20-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/lge/v20-common/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
@@ -97,9 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/lib64/libfpfactory.so:system/lib64/libfpfactory.so \
     vendor/lge/v20-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
     vendor/lge/v20-common/proprietary/lib64/liblgkm.so:system/lib64/liblgkm.so \
-    vendor/lge/v20-common/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/lge/v20-common/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
-    vendor/lge/v20-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/lge/v20-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/v20-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/v20-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
@@ -409,9 +405,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
-    vendor/lge/v20-common/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/lge/v20-common/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libsensor_lge_cal.so:system/vendor/lib/libsensor_lge_cal.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
@@ -426,18 +420,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
     vendor/lge/v20-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/lge/v20-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/lge/v20-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/lge/v20-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/lge/v20-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/lge/v20-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/lge/v20-common/proprietary/vendor/lib64/libsensor_lge_cal.so:system/vendor/lib64/libsensor_lge_cal.so \
     vendor/lge/v20-common/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/lge/v20-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/lge/v20-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
-
-PRODUCT_PACKAGES += \
-    qcrilmsgtunnel \
-    qcrilhook
+    vendor/lge/v20-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/lge/v20-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/lge/v20-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/lge/v20-common/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
