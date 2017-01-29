@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/v20-common/proprietary/lib64/hw/consumerir.msm8996.so:system/lib64/hw/consumerir.msm8996.so \
     vendor/lge/v20-common/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
+    vendor/lge/v20-common/proprietary/lib64/hw/gps.msm8996.so:system/lib64/hw/gps.msm8996.so \
     vendor/lge/v20-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/v20-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
     vendor/lge/v20-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
@@ -112,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/lib64/libvss_resim_core.so:system/lib64/libvss_resim_core.so \
     vendor/lge/v20-common/proprietary/lib64/libvss_resim_idl.so:system/lib64/libvss_resim_idl.so \
     vendor/lge/v20-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
+    vendor/lge/v20-common/proprietary/lib/hw/gps.msm8996.so:system/lib/hw/gps.msm8996.so \
     vendor/lge/v20-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin \
     vendor/lge/v20-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin \
     vendor/lge/v20-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin \
