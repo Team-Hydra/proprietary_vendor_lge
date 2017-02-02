@@ -17,8 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/us996/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/us996/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/us996/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
-    vendor/lge/us996/proprietary/vendor/firmware/BCM4358A3.hcd:system/vendor/firmware/BCM4358A3.hcd
+    vendor/lge/us996/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
