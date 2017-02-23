@@ -72,39 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib64/libvss_resim_core.so:system/lib64/libvss_resim_core.so \
     vendor/lge/msm8996-common/proprietary/lib64/libvss_resim_idl.so:system/lib64/libvss_resim_idl.so \
     vendor/lge/msm8996-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data2.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data2.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev2_S_data1_0x18.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev2_S_data1_0x18.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev2_S_data2_0x18.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev2_S_data2_0x18.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev4_S_data1_0x36.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev4_S_data1_0x36.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev4_S_data2_0x36.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev4_S_data2_0x36.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_K2G2IS_rev1_S_data1_0x04.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_K2G2IS_rev1_S_data1_0x04.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_K2G2IS_rev1_S_data2_0x04.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_K2G2IS_rev1_S_data2_0x04.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev13_S_data1.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev13_S_data1.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev13_S_data2.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev13_S_data2.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev14_S_data1.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev14_S_data1.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev14_S_data2.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev14_S_data2.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev3.1_S_data1_0x1F.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev3.1_S_data1_0x1F.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev3.1_S_data2_0x1F.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev3.1_S_data2_0x1F.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data1_0x03.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data1_0x03.bin \
-    vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data2_0x03.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data2_0x03.bin \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/default/default/mcfg_hw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/default/default/mcfg_hw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x45/ss/mcfg_hw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x45/ss/mcfg_hw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x45_/ss/mcfg_hw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x45_/ss/mcfg_hw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8996/la/ss/mcfg_hw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8996/la/ss/mcfg_hw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8996/wp8/ss/mcfg_hw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8996/wp8/ss/mcfg_hw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/common/default/default/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/common/default/default/mcfg_sw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/common/row/gen_3gpp/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/common/row/gen_3gpp/mcfg_sw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/common/us_cellu/commerci/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/common/us_cellu/commerci/mcfg_sw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/att/non_volt/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/att/non_volt/mcfg_sw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/att/volte/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/att/volte/mcfg_sw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/claro/commerci/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/claro/commerci/mcfg_sw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/sprint/commerci/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/sprint/commerci/mcfg_sw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/tmo/commerci/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/tmo/commerci/mcfg_sw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/cdmaless/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/cdmaless/mcfg_sw.mbn \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/hvolte/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/hvolte/mcfg_sw.mbn \
     vendor/lge/msm8996-common/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libsensor_lge_cal.so:system/vendor/lib/libsensor_lge_cal.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libsensor_lge_cal.so:system/vendor/lib64/libsensor_lge_cal.so
